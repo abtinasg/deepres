@@ -128,10 +128,11 @@ export function Features() {
                   <span className="text-sm font-bold text-indigo-600">BibTeX</span>
                </div>
                <div className="bg-slate-50 rounded-lg p-3 font-mono text-xs text-slate-600 mb-4 overflow-hidden">
-                  @article{vaswani2017,<br/>
-                  title={Attention is All You Need},<br/>
-                  author={Vaswani, Ashish},<br/>
-                  year={2017}
+                  <div>@article&#123;vaswani2017,</div>
+                  <div>&nbsp;&nbsp;title=&#123;Attention is All You Need&#125;,</div>
+                  <div>&nbsp;&nbsp;author=&#123;Vaswani, Ashish&#125;,</div>
+                  <div>&nbsp;&nbsp;year=&#123;2017&#125;</div>
+                  <div>&#125;</div>
                </div>
                <button className="w-full bg-indigo-600 text-white rounded-lg py-2 text-sm font-medium flex items-center justify-center gap-2">
                   <Download size={16} />
